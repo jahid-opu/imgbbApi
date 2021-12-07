@@ -50,8 +50,8 @@ function App() {
         <br />
       </form>
       <p>Image Url 1: {imageURL}</p>
-      <p>Image Url 1: {imageURL2}</p>
-      <p>Image Url 1: {imageURL3}</p>
+      <p>Image Url 2: {imageURL2}</p>
+      <p>Image Url 3: {imageURL3}</p>
     </div>
   );
 }

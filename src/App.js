@@ -23,7 +23,7 @@ function App() {
       });
   };
 
-  const handleAddProduct = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     const product = {
       img1: imageURL,
@@ -34,7 +34,7 @@ function App() {
   };
   return (
     <div className="App">
-      <form onSubmit={handleAddProduct}>
+      <form onSubmit={handleSubmit}>
         <input
           className="form-control"
           id="img"

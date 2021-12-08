@@ -22,9 +22,19 @@ function App() {
         console.log(error);
       });
   };
+
+  const handleAddProduct = (e) => {
+    e.preventDefault();
+    const product = {
+      img1: imageURL,
+      img2: imageURL2,
+      img3: imageURL3,
+    };
+    console.log(product);
+  };
   return (
     <div className="App">
-      <form>
+      <form onSubmit={handleAddProduct}>
         <input
           className="form-control"
           id="img"
